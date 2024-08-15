@@ -24,6 +24,7 @@ files=(
 /var/lib/portage/world
 /usr/src/linux
 /usr/src/linux-6.6.38-gentoo/.config
+/usr/src/linux-6.6.38-gentoo/defconfig
 )
 
 for file in "${files[@]}"; do
