@@ -1,4 +1,5 @@
 gnome-base/gnome-extra-apps -games
+gnome-base/gnome-extra-apps -share
 
 media-video/pipewire sound-server
 
