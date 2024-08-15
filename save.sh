@@ -31,7 +31,7 @@ files=(
 
 for file in "${files[@]}"; do
   [[ ! -e $file ]] && echo "Warning: $file not found" && continue
-  dst_file=${PWD}${file}
+  dst_file="${PWD}/root/${file}"
   dst_dir=$(dirname $dst_file)
   mkdir -p $dst_dir
   [[ -L $dst_file ]] && unlink $dst_file
