@@ -1,0 +1,2 @@
+app-emulation/qemu QEMU_SOFTMMU_TARGETS: x86_64
+app-emulation/qemu QEMU_USER_TARGETS: x86_64

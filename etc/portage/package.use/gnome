@@ -1,0 +1,5 @@
+gnome-base/gnome-extra-apps -games
+
+media-video/pipewire sound-server
+
+app-containers/podman btrfs

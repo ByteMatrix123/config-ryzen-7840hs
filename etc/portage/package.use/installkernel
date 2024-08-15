@@ -1,0 +1,4 @@
+sys-kernel/installkernel dracut
+sys-kernel/installkernel systemd-boot
+sys-apps/systemd boot
+
