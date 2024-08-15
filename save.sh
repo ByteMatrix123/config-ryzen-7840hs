@@ -10,6 +10,8 @@ files=(
 /etc/portage/binrepos.conf/gentoobinhost.conf
 /etc/portage/make.conf
 /etc/portage/env/nolto.conf
+/etc/portage/package.accept_keywords/neovim
+/etc/portage/package.accept_keywords/zz-autounmask
 /etc/portage/package.env/noltobuild
 /etc/portage/package.use/00cpu-flags
 /etc/portage/package.use/qemu

@@ -1,0 +1,6 @@
+=app-editors/neovim-0.10.1 ~amd64
+=dev-libs/tree-sitter-lua-0.1.0 ~amd64
+=dev-libs/tree-sitter-markdown-0.2.3 ~amd64
+=dev-libs/tree-sitter-query-0.4.0 ~amd64
+=dev-libs/tree-sitter-vim-0.4.0 ~amd64
+=dev-libs/tree-sitter-vimdoc-3.0.0 ~amd64

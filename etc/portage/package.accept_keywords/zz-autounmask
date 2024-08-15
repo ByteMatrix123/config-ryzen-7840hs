@@ -1,0 +1,7 @@
+# package.accept_keywords
+
+# required by =x11-libs/gtk+-3.24.42-r1 (argument)
+=x11-libs/gtk+-3.24.42-r1 ~amd64
+
+# required by dev-util/android-studio (argument)
+=dev-util/android-studio-2024.1.1.12 ~amd64
