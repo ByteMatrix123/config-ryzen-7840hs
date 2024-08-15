@@ -3,6 +3,7 @@
 files=(
 /etc/systemd/zram-generator.conf.d/zram0-swap.conf
 /etc/systemd/zram-generator.conf.d/zram1-portage-tmpdir.conf
+/etc/localtime
 /etc/kernel/cmdline
 /etc/profile.d/local.sh
 /etc/tmpfiles.d/sysfs-local.conf
@@ -21,16 +22,15 @@ files=(
 /etc/portage/repos.conf/gentoo-zh.conf
 /var/cache/ccache/ccache.conf
 /var/lib/portage/world
+/usr/src/linux
 /usr/src/linux-6.6.38-gentoo/.config
 )
 
 for file in "${files[@]}"; do
-  if [[ ! -f $file ]]; then
-    echo "Warning: $file not found"
-    continue
-  fi
+  [[ ! -e $file ]] && echo "Warning: $file not found" && continue
   dst_file=${PWD}${file}
   dst_dir=$(dirname $dst_file)
   mkdir -p $dst_dir
-  cp -fv $file $dst_file
+  [[ -L $dst_file ]] && unlink $dst_file
+  cp -fv --no-dereference --preserve=links $file $dst_file
 done
