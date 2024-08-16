@@ -12,7 +12,7 @@ rm -rfv ~/.config/ibus
 rm -rfv ~/.config/mimeapps.list
 rm -rfv ~/.config/nautilus
 rm -rfv ~/.config/pulse
-rm -rfv ~/.config/Shotwell
+rm -rfv ~/.config/shotwell
 rm -rfv ~/.config/user-dirs.dirs
 rm -rfv ~/.config/user-dirs.locale
 rm -rfv ~/.config/xdg-terminals.list
