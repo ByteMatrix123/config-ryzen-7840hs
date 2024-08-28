@@ -2,5 +2,6 @@ gnome-base/gnome-extra-apps -games
 gnome-base/gnome-extra-apps -share
 
 media-video/pipewire sound-server
+media-video/pipewire flatpak
 
 app-containers/podman btrfs
