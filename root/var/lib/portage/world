@@ -11,6 +11,7 @@ app-portage/eix
 app-portage/gentoolkit
 app-shells/bash-completion
 app-shells/starship
+dev-debug/gdb
 dev-debug/strace
 dev-util/android-studio
 dev-util/android-tools
