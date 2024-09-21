@@ -6,6 +6,7 @@ app-editors/vim
 app-emulation/libvirt
 app-emulation/qemu
 app-i18n/ibus-libpinyin
+app-misc/jq
 app-misc/tmux
 app-portage/eix
 app-portage/gentoolkit
