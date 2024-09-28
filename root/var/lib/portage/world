@@ -1,10 +1,12 @@
 app-admin/sudo
+app-arch/zip
 app-containers/distrobox
 app-containers/podman
 app-editors/neovim
 app-editors/vim
 app-emulation/libvirt
 app-emulation/qemu
+app-emulation/virt-manager
 app-i18n/ibus-libpinyin
 app-misc/jq
 app-misc/tmux
@@ -16,8 +18,11 @@ dev-debug/gdb
 dev-debug/strace
 dev-util/android-studio
 dev-util/android-tools
+dev-util/bear
 dev-util/ccache
+dev-util/patchelf
 dev-vcs/git
+dev-vcs/repo
 gnome-base/gnome
 gnome-extra/gnome-browser-connector
 media-fonts/noto
@@ -31,6 +36,7 @@ sys-apps/plocate
 sys-apps/ripgrep
 sys-apps/zram-generator
 sys-boot/efibootmgr
+sys-devel/crossdev
 sys-fs/btrfs-progs
 sys-fs/dosfstools
 sys-fs/fuse:0

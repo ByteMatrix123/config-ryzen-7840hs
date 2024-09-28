@@ -12,3 +12,6 @@
 # required by app-emulation/libvirt-10.3.0-r2::gentoo[qemu]
 # required by dev-python/libvirt-python-10.3.0::gentoo
 >=net-libs/gnutls-3.8.0 tools pkcs11
+# required by app-emulation/virt-manager-4.1.0-r1::gentoo[-test,gui]
+# required by app-emulation/virt-manager (argument)
+>=net-misc/spice-gtk-0.42-r4 usbredir
