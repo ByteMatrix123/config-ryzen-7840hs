@@ -7,6 +7,7 @@ app-editors/vim
 app-emulation/libvirt
 app-emulation/qemu
 app-emulation/virt-manager
+app-eselect/eselect-repository
 app-i18n/ibus-libpinyin
 app-misc/jq
 app-misc/tmux

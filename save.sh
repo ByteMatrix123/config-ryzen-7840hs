@@ -29,6 +29,8 @@ files=(
 /usr/src/linux-6.6.38-gentoo/defconfig
 /usr/src/linux-6.6.47-gentoo/.config
 /usr/src/linux-6.6.47-gentoo/defconfig
+/usr/src/linux-6.6.52-gentoo/.config
+/usr/src/linux-6.6.52-gentoo/defconfig
 )
 
 for file in "${files[@]}"; do
@@ -38,4 +40,7 @@ for file in "${files[@]}"; do
   mkdir -p $dst_dir
   [[ -L $dst_file ]] && unlink $dst_file
   cp -fv --no-dereference --preserve=links $file $dst_file
+  if [[ "$file" = /var/lib/portage/world ]]; then
+    sed -i '/^cross-.*$/d' $dst_file
+  fi
 done
