@@ -4,3 +4,5 @@ sys-firmware/intel-microcode intel-ucode
 
 # required by www-client/google-chrome (argument)
 >=www-client/google-chrome-127.0.6533.99 google-chrome
+# required by app-editors/vscode (argument)
+>=app-editors/vscode-1.94.0 Microsoft-vscode

@@ -4,6 +4,7 @@ app-containers/distrobox
 app-containers/podman
 app-editors/neovim
 app-editors/vim
+app-editors/vscode
 app-emulation/libvirt
 app-emulation/qemu
 app-emulation/virt-manager
@@ -22,6 +23,7 @@ dev-util/android-tools
 dev-util/bear
 dev-util/ccache
 dev-util/patchelf
+dev-util/rustup
 dev-vcs/git
 dev-vcs/repo
 gnome-base/gnome
