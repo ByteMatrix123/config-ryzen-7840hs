@@ -14,7 +14,6 @@ files=(
 /etc/portage/package.accept_keywords/zz-autounmask
 /etc/portage/package.env/noltobuild
 /etc/portage/package.license/kernel
-/etc/portage/package.license/android-studio
 /etc/portage/package.use/00cpu-flags
 /etc/portage/package.use/gnome
 /etc/portage/package.use/installkernel
