@@ -18,9 +18,12 @@ app-shells/bash-completion
 app-shells/starship
 dev-debug/gdb
 dev-debug/strace
+dev-libs/libbpf
 dev-util/android-tools
 dev-util/bear
+dev-util/bpftool
 dev-util/ccache
+dev-util/pahole
 dev-util/patchelf
 dev-util/rustup
 dev-vcs/git
@@ -38,6 +41,7 @@ sys-apps/plocate
 sys-apps/ripgrep
 sys-apps/zram-generator
 sys-boot/efibootmgr
+sys-devel/clang
 sys-devel/crossdev
 sys-fs/btrfs-progs
 sys-fs/dosfstools
