@@ -19,8 +19,7 @@ files=(
 /etc/portage/package.use/installkernel
 /etc/portage/package.use/qemu
 /etc/portage/package.use/zz-autounmask
-/etc/portage/repos.conf/gentoo.conf
-/etc/portage/repos.conf/gentoo-zh.conf
+/etc/portage/repos.conf/eselect-repo.conf
 /var/cache/ccache/ccache.conf
 /var/lib/portage/world
 /usr/src/linux
