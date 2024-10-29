@@ -33,12 +33,15 @@ gnome-extra/gnome-browser-connector
 media-fonts/noto
 media-fonts/noto-cjk
 media-fonts/noto-emoji
+net-dns/bind
+net-misc/iperf
 sys-apps/ethtool
 sys-apps/flatpak
 sys-apps/fwupd
 sys-apps/kexec-tools
 sys-apps/plocate
 sys-apps/ripgrep
+sys-apps/usbutils
 sys-apps/zram-generator
 sys-boot/efibootmgr
 sys-devel/clang
