@@ -33,6 +33,7 @@ gnome-extra/gnome-browser-connector
 media-fonts/noto
 media-fonts/noto-cjk
 media-fonts/noto-emoji
+net-analyzer/tcpdump
 net-dns/bind
 net-misc/iperf
 sys-apps/ethtool
