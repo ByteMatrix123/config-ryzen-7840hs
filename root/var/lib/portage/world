@@ -35,6 +35,7 @@ media-fonts/noto-cjk
 media-fonts/noto-emoji
 net-analyzer/tcpdump
 net-dns/bind
+net-fs/sshfs
 net-misc/iperf
 sys-apps/ethtool
 sys-apps/flatpak
